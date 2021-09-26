@@ -248,7 +248,7 @@ h3 {
   padding: 0 23%;
   margin: 0 0 30px 0;
 }
-.banner button {
+.banner__order-btn {
   width: 200px;
   height: 50px;
   text-align: center;
@@ -263,6 +263,26 @@ h3 {
   outline: none;
   cursor: pointer;
   border: inherit;
+}
+.banner__modal{
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  left: 50%;
+  top: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transform: translate(-50%, -50%) scale(1);
+}
+.close-btn{ 
+  /* background-color: var(--title-color); */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  outline: none;
+
 }
 /*=========RESPONS===========*/
 .respons__list {
