@@ -1,3 +1,8 @@
+/* Добавляем отступ стр от header */
+  let hgHeader =document.querySelector(".header").offsetHeight;
+  let hgPage =document.querySelector(".page").style.paddingTop=`${hgHeader}px`;
+/*   console.log(hgHeader); */
+
 (() => {
     const refs = {
       openModalBtn: document.querySelector('[data-modal-open]'),
@@ -12,3 +17,7 @@
       refs.modal.classList.toggle('is-hidden');
     }
   })();
+
+  
+
+
