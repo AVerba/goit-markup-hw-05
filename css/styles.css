@@ -578,16 +578,17 @@ h3 {
   text-align: center;
   cursor: pointer;
   padding: 6px 22px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
   border: inherit;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter__btn.active {
   background: var(--action-color);
   color: #ffff;
 }
 .filter__btn:hover {
-  background: var(--action-color);
+  background-color: var(--action-color);
   color: #ffff;
   box-shadow: var(--btn-shadow);
 }
