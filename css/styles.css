@@ -619,6 +619,7 @@ h3 {
 .item__card {
   border-radius: 4px;
   overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 ._overlay {
   position: relative;
@@ -640,8 +641,6 @@ h3 {
 }
 
 .item__card:hover {
-  background: #ffffff;
-  box-sizing: border-box;
   box-shadow: var(--card-shadow);
 }
 .item__card:hover .item__text-overlay {
