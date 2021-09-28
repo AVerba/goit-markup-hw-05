@@ -318,10 +318,16 @@ h3 {
   right: 6px;
   width: 30px;
   height: 30px;
-  background: #ffffff;
+  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   cursor: pointer;
+}
+.btn-close .icon {
+  fill: #000;
+}
+.btn-close:hover .icon {
+  fill: var(--action-color);
 }
 /*=========RESPONS===========*/
 .respons__list {
